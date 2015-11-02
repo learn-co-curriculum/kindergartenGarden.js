@@ -4,7 +4,7 @@ Meet your new class!
 
 Alice, Bob, Charlie, David, Eve, Fred, Ginny, Harriet, Ileana, Joseph, Kincaid, and Larry.
 
-Here at the Flatiron School, we're starting a garden with our kindergarten class. To track which patch belongs to which student, we're writing an app to track them.
+Here at the Flatiron School, we're starting a garden with our kindergarten class. To track which patch belongs to which student, we're writing an app.
 
 We're supporting 4 kinds of crops: Grass, Violets, Radishes, and Clover. In our app, we'll reference them as G, V, R, and C respectively.
 
@@ -23,6 +23,7 @@ Your `Garden` constructor should be able to do the following:
 * that student name property stores an array of their assigned crops
 
 ex.
+
 ```javascript
 var students = ['Alice', 'Bob', 'Charlie'];
 var garden = new Garden('VVCGGV\nVVRCCR', students)
@@ -31,18 +32,16 @@ garden.bob
 // -> ['clover', 'grass', 'radishes', 'clover']
 ```
 
-
 ## Tests
-To run the specs follow these commands:
-```shell
-# first install the new gem to run the tests
-gem sources -a http://flatiron:33west26@gems.flatironschool.com
-gem install learn-co
 
+To run the specs follow these commands:
+
+```shell
 # to run in the command line run
 learn
 
 #to run in the browser
 learn -b
 ```
+
 When you finish passing a test, remove the `x` from `xit` to convert it to a runnable test.
